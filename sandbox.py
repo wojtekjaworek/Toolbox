@@ -12,21 +12,13 @@ if __name__ == '__main__':
     os.chdir(get_working_directory())
 
 
-    point1 = Point(0,0,0)
+    
 
-    point2 = Point(1,1,0)
+    seg = Segment((0,1), (0,2))
 
-    vec1 = Vector(1.0,1.0)
-
-    seg1 = Segment(Point(0.0, 0.0,0), Point(1.0, 1.0,0))
-
-
-    vec2 = Vector(seg1)
-
-    print(vec2.norm())
-
-
-
+    p1=(0,0)
+    p2 = (1,0)
+    print(dist_point_to_point(p1,p2))
 
 
 
